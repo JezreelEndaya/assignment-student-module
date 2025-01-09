@@ -3,6 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Student } from './typeorm/entities/student';
+import { StudentsModule } from './students/students.module';
 
 @Module({
   imports: [TypeOrmModule.forRoot({
@@ -14,7 +15,7 @@ import { Student } from './typeorm/entities/student';
     database: 'assignment_student_module',
     entities: [Student],
     synchronize: true
-  })],
+  }), StudentsModule],
   controllers: [AppController],
   providers: [AppService],
 })

@@ -15,11 +15,11 @@ export class Student{
     email: String;
 
     @Column()
-    enrollmentDate: Date;
+    enrollmentDate: String;
 
     @Column()
     createdAt: Date;
     
-    @Column()
+    @Column({nullable: true})
     updatedAt: Date;
 }
