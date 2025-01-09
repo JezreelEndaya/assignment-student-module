@@ -15,4 +15,8 @@ export class StudentsService {
         const newStudent = this.studentRepository.create({...studentDetails,  createdAt: new Date(), });
         this.studentRepository.save(newStudent);
     }
+
+    findStudents(){
+        return this.studentRepository.find();
+    }
 }

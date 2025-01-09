@@ -11,4 +11,9 @@ export class StudentsController {
     createStudent(@Body() createStudentDto: CreateStudentDto){
         return this.studentsService.createStudent(createStudentDto);
     }
+
+    @Get()
+    fetchStudents(){
+        return this.studentsService.findStudents();
+    }
 }
