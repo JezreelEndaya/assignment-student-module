@@ -24,4 +24,8 @@ export class StudentsService {
     updateStudent(id: number, updateStudentDetails: UpdateStudentParams){
         return this.studentRepository.update({id},{...updateStudentDetails, updatedAt: new Date(), });
     }
+
+    deleteStudent(id: number){
+        return this.studentRepository.delete({id});
+    }
 }
