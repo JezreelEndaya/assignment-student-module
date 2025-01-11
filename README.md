@@ -26,9 +26,9 @@
 
 #### Method: POST
 #### Endpoint: /students
-#### Request Body: 
+#### Request Body / Response: 
 
-<a href="" target="blank"><img src="DELETE.png" width="620" alt="Nest Logo" /></a>
+<a href="" target="blank"><img src="POST.png" width="820" alt="Nest Logo" /></a>
 
 ## 2. Read Student
 
@@ -36,16 +36,22 @@
 #### Endpoint: /students
 #### Request Body: 
 
+<a href="" target="blank"><img src="GET.png" width="820" alt="Nest Logo" /></a>
+
 ## 3. Update Student
 
 #### Method: PATCH
 #### Endpoint: /students/:id
 #### Request Body: 
 
+<a href="" target="blank"><img src="PATCH.png" width="820" alt="Nest Logo" /></a>
+
 ## 4. Delete Student
 
 #### Method: DELETE
 #### Endpoint: /students/:id
 #### Request Body: 
+
+<a href="" target="blank"><img src="DELETE.png" width="820" alt="Nest Logo" /></a>
 
 
