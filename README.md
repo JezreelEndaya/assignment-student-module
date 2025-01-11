@@ -29,7 +29,7 @@
 #### Request Body: 
 
 <p align="center">
-  <a href="" target="blank"><img src="DELETE.png" width="120" alt="Nest Logo" /></a>
+  <a href="" target="blank"><img src="DELETE.png" width="320" alt="Nest Logo" /></a>
 </p>
 
 ## 2. Read Student
