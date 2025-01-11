@@ -24,9 +24,9 @@
 
 ## 1. Create Student
 
-Method: POST
-Endpoint: /students
-Request Body: 
+# Method: POST
+# Endpoint: /students
+# Request Body: 
 
 ## Project setup
 
