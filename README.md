@@ -28,9 +28,7 @@
 #### Endpoint: /students
 #### Request Body: 
 
-<p align="center">
-  <a href="" target="blank"><img src="DELETE.png" width="320" alt="Nest Logo" /></a>
-</p>
+<a href="" target="blank"><img src="DELETE.png" width="620" alt="Nest Logo" /></a>
 
 ## 2. Read Student
 
